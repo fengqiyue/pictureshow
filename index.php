@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
               <title>照片墙</title>
@@ -19,8 +19,8 @@
                                  <ul data-role="listview" >
                                                 <li data-role="list-divider">照片墙
                                                  <?php
-                                                       $con = mysql_connect("localhost","root","123456");
-
+                                                  //     $con = mysql_connect("localhost","root","123456");
+                                                        $con = mysql_connect("php502","root","tiger");
                                                         mysql_select_db("plat", $con);
 
                                                        $query = "select image_src from image order by image_time desc" ;  
@@ -35,8 +35,8 @@
 
               <div data-role="content">
               <?php
-                      $con = mysql_connect("localhost","root","123456");
-
+ //                     $con = mysql_connect("localhost","root","123456"); // need to  change it if database changed;  
+                     $con = mysql_connect("php502","root","tiger");
                      mysql_select_db("plat", $con);
 
                      $query = "select image_src from image order by image_time desc" ;  
