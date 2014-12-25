@@ -14,7 +14,7 @@
         <div data-role="page" id="pageone"  data-dom-cache="true">
               <div data-role="header" >
                             <h1>校园祭</h1>
-                            <a href="#upload" data-rolr = button data-icon="star" class="ui-btn-right"  data-transition="slide" >上传图片</a>
+                            <!--<a href="#upload" data-rolr = button data-icon="star" class="ui-btn-right"  data-transition="slide" >上传图片</a>-->
                
                                  <ul data-role="listview" >
                                                 <li data-role="list-divider">照片墙
